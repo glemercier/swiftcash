@@ -329,9 +329,9 @@ UniValue getswiftnodecount (const UniValue& params, bool fHelp)
     obj.push_back(Pair("stable", mnodeman.stable_size()));
     obj.push_back(Pair("enabled", mnodeman.CountEnabled()));
     obj.push_back(Pair("inqueue", nCount));
-    obj.push_back(Pair("ipv4", ipv4));
-    obj.push_back(Pair("ipv6", ipv6));
-    obj.push_back(Pair("onion", onion));
+    //obj.push_back(Pair("ipv4", ipv4));
+    //obj.push_back(Pair("ipv6", ipv6));
+    //obj.push_back(Pair("onion", onion));
 
     return obj;
 }
