@@ -35,7 +35,7 @@ packages:
 - "python"
 reference_datetime: "2018-10-01 00:00:00"
 remotes:
-- "url": "https://github.com/swiftcashproject/swiftcash.git"
+- "url": "https://github.com/glemercier/swiftcash.git"
   "dir": "swiftcash"
 files: []
 script: |

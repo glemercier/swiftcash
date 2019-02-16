@@ -23,7 +23,7 @@ packages:
 - "python"
 - "rename"
 remotes:
-- "url": "https://github.com/swiftcashproject/swiftcash.git"
+- "url": "https://github.com/glemercier/swiftcash.git"
   "dir": "swiftcash"
 files: []
 script: |

@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/swiftcashproject/swiftcash.git"
+- "url": "https://github.com/glemercier/swiftcash.git"
   "dir": "swiftcash"
 files:
 - "MacOSX10.11.sdk.tar.gz"
