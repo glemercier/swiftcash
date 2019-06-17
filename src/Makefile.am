@@ -143,6 +143,7 @@ BITCOIN_CORE_H = \
   rpcclient.h \
   rpcprotocol.h \
   rpcserver.h \
+  rpcutil.h \
   scheduler.h \
   script/interpreter.h \
   script/script.h \
@@ -210,6 +211,7 @@ libbitcoin_server_a_SOURCES = \
   rpcnet.cpp \
   rpcrawtransaction.cpp \
   rpcserver.cpp \
+  rpcutil.cpp \
   script/sigcache.cpp \
   sporkdb.cpp \
   timedata.cpp \
