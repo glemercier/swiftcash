@@ -79,6 +79,13 @@ int LogPrintStr(const std::string& str);
     {                                                                                           \
         LogPrintStr(std::string("ERROR: ") + tfm::format(format, TINYFORMAT_PASSARGS(n)) + "\n");            \
         return false;                                                                           \
+    }                                                                                           \
+    /**   Log error and return a value */                                                       \
+    template <TINYFORMAT_ARGTYPES(n)>                                                           \
+    static inline int errorN(int ret, const char* format, TINYFORMAT_VARARGS(n))                \
+    {                                                                                           \
+        LogPrintStr(std::string("ERROR: ") + tfm::format(format, TINYFORMAT_PASSARGS(n)) + "\n");            \
+        return ret;                                                                             \
     }
 
 TINYFORMAT_FOREACH_ARGNUM(MAKE_ERROR_AND_LOG_FUNC)
